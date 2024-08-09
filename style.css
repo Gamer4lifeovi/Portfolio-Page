@@ -15,8 +15,8 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-    background: #171717; 
-  }
+    background: #171717;
+}
 
 nav {
     width: 100vw;
@@ -41,9 +41,7 @@ nav {
     display: flex;
     background-position: center;
     justify-content: space-between;
-    padding-left: 1%;
-    padding-right: 10%;
-    padding-top: 150px;
+    padding: 2em 4em;
 }
 
 .nav a {
@@ -126,7 +124,7 @@ span {
     color: white;
     font-size: 20px;
     margin-bottom: 10px;
-}   
+}
 
 .box-cer h6 {
     color: white;
@@ -154,7 +152,7 @@ span {
     background-color: #171717;
 }
 
-.services-row{
+.services-row {
     padding-top: 50px;
     align-items: center;
 }
@@ -190,11 +188,11 @@ span {
     margin-bottom: 5px;
 }
 
-.projects{
+.projects {
     background-color: #171717;
 }
 
-.projects h2{
+.projects h2 {
     padding-top: 20px;
     text-align: center;
 }
@@ -207,7 +205,7 @@ span {
     gap: 2.5rem;
 }
 
-.pro-row{
+.pro-row {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -221,7 +219,7 @@ span {
     transition: transform 0.5s;
 }
 
-.layer{
+.layer {
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.1), blue);
@@ -238,7 +236,7 @@ span {
     padding-top: 70px;
 }
 
-.layer h5{
+.layer h5 {
     font: 20px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -247,13 +245,13 @@ span {
     padding-right: 40px;
 }
 
-.layer p{
+.layer p {
     color: white;
     font-size: 1rem;
     line-height: 1.8;
 }
 
-.layer i{
+.layer i {
     color: white;
     margin-top: 20px;
     font-size: 20px;
@@ -266,27 +264,27 @@ span {
     border-radius: 50px;
 }
 
-.pro-row:hover img{
+.pro-row:hover img {
     transform: scale(1.1);
 }
 
-.pro-row:hover .layer{
+.pro-row:hover .layer {
     height: 100%;
 }
 
 
-:root{
-    --bodyBg:#303841;
-    --formBg:#343F4B;
-    --textColor:#fff;
-    --primaryColor:#0076A3;
-    --paraColor:#5e6c79;
-    --paraColor:#74828f;
+:root {
+    --bodyBg: #303841;
+    --formBg: #343F4B;
+    --textColor: #fff;
+    --primaryColor: #0076A3;
+    --paraColor: #5e6c79;
+    --paraColor: #74828f;
 
 }
 
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -296,7 +294,7 @@ span {
     margin-top: 2em;
 }
 
-.sectionHeader{
+.sectionHeader {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 1.1rem;
@@ -304,41 +302,42 @@ span {
     margin-bottom: .5em;
 }
 
-.heading,.sub-heading{
+.heading,
+.sub-heading {
     margin-bottom: .5em;
     font-weight: bold;
 }
 
-.heading{
+.heading {
     font-size: 2.5em;
 }
 
-.sub-heading{
+.sub-heading {
     text-align: left;
 }
 
-.contactForm{
+.contactForm {
     display: grid;
     gap: 3em;
 }
 
-form{
+form {
     width: 100%;
     margin-top: 3em;
 }
 
-.para{
+.para {
     color: var(--paraColor);
     font-size: 1.1rem;
     line-height: 1.5em;
     margin-bottom: 1em;
 }
 
-.para2{
+.para2 {
     text-align: left;
 }
 
-.input{
+.input {
     width: 95%;
     max-width: 700px;
     border: none;
@@ -353,15 +352,15 @@ form{
 
 }
 
-.input:focus{
+.input:focus {
     border: 1px solid var(--primaryColor);
 }
 
-.input::placeholder{
+.input::placeholder {
     text-transform: capitalize;
 }
 
-.submit{
+.submit {
     background-color: var(--primaryColor);
     border: none;
     color: var(--textColor);
@@ -370,13 +369,13 @@ form{
     width: 100%;
 }
 
-.map-container{
+.map-container {
     position: relative;
     width: 100%;
     height: 500px;
 }
 
-.mapBg{
+.mapBg {
     position: absolute;
     background-color: var(--primaryColor);
     top: 0;
@@ -386,7 +385,7 @@ form{
     border-radius: 20px;
 }
 
-.map{
+.map {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -394,47 +393,47 @@ form{
     height: 90%;
 }
 
-.map iframe{
+.map iframe {
     width: 100%;
     height: 100%;
 }
 
-.contactMethod{
+.contactMethod {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
     text-align: left;
 }
 
-.method{
+.method {
     display: flex;
     align-items: center;
 }
 
-.contactIcon{
+.contactIcon {
     font-size: 2rem;
     color: var(--primaryColor);
     width: 70px;
 }
 
-:root{
-    --bodyBg:#303841;
-    --formBg:#343F4B;
-    --textColor:#fff;
-    --primaryColor:#0076A3;
-    --paraColor:#5e6c79;
-    --paraColor:#74828f;
+:root {
+    --bodyBg: #303841;
+    --formBg: #343F4B;
+    --textColor: #fff;
+    --primaryColor: #0076A3;
+    --paraColor: #5e6c79;
+    --paraColor: #74828f;
 
 }
 
-body{
+body {
     font-family: 'Roboto Serif', serif;
     color: var(--textColor);
     background: #171717;
     padding-bottom: 5em;
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -444,7 +443,7 @@ body{
     margin-top: 2em;
 }
 
-.sectionHeader{
+.sectionHeader {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 1.1rem;
@@ -452,41 +451,42 @@ body{
     margin-bottom: .5em;
 }
 
-.heading,.sub-heading{
+.heading,
+.sub-heading {
     margin-bottom: .5em;
     font-weight: bold;
 }
 
-.heading{
+.heading {
     font-size: 2.5em;
 }
 
-.sub-heading{
+.sub-heading {
     text-align: left;
 }
 
-.contactForm{
+.contactForm {
     display: grid;
     gap: 3em;
 }
 
-form{
+form {
     width: 100%;
     margin-top: 3em;
 }
 
-.para{
+.para {
     color: var(--paraColor);
     font-size: 1.1rem;
     line-height: 1.5em;
     margin-bottom: 1em;
 }
 
-.para2{
+.para2 {
     text-align: left;
 }
 
-.input{
+.input {
     width: 95%;
     max-width: 700px;
     border: none;
@@ -501,15 +501,15 @@ form{
 
 }
 
-.input:focus{
+.input:focus {
     border: 1px solid var(--primaryColor);
 }
 
-.input::placeholder{
+.input::placeholder {
     text-transform: capitalize;
 }
 
-.submit{
+.submit {
     background-color: var(--primaryColor);
     border: none;
     color: var(--textColor);
@@ -518,13 +518,13 @@ form{
     width: 100%;
 }
 
-.map-container{
+.map-container {
     position: relative;
     width: 100%;
     height: 500px;
 }
 
-.mapBg{
+.mapBg {
     position: absolute;
     background-color: var(--primaryColor);
     top: 0;
@@ -534,7 +534,7 @@ form{
     border-radius: 20px;
 }
 
-.map{
+.map {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -542,26 +542,25 @@ form{
     height: 90%;
 }
 
-.map iframe{
+.map iframe {
     width: 100%;
     height: 100%;
 }
 
-.contactMethod{
+.contactMethod {
     display: flex;
     flex-direction: column;
     margin-top: 2em;
     text-align: left;
 }
 
-.method{
+.method {
     display: flex;
     align-items: center;
 }
 
-.contactIcon{
+.contactIcon {
     font-size: 2rem;
     color: var(--primaryColor);
     width: 70px;
 }
-

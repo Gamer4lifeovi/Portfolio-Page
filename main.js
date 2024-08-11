@@ -1,4 +1,4 @@
-//  Make navbar opaque when window scrolled
+ //  Make navbar opaque when window scrolled
 // window.addEventListener("scroll", () => {
 //   console.log("Scrolling...");
 // });
@@ -8,7 +8,7 @@ window.onscroll = () => {
   } else {
     document.querySelector("nav.nav").classList.remove("scrolled");
   }
-};
+};  
 
 // Fetching API
 
